@@ -1,6 +1,6 @@
 # Steaminfo
 
-Breve descripción del proyecto.
+Un pequeño codigo para ver informacion simple de un perfil de steam con su ID.
 
 ## Instalación
 
