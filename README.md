@@ -1,6 +1,6 @@
 # Steaminfo
 
-Un pequeño codigo para ver informacion simple de un perfil de steam con su ID.
+Un pequeño codigo para ver informacion simple de un perfil de steam con su ID Usando Next.js, React y SteamApis.
 
 ## Instalación
 
