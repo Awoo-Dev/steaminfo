@@ -19,7 +19,7 @@ export default function Profile() {
     event.preventDefault() // Evita que la página se recargue cuando se envía el formulario
 
     // Hace una solicitud a la API de Steam para obtener los datos del perfil del usuario
-    const response = await fetch(`https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=6DD4BA16941D4877304423AE28624434&steamids=${id}`)
+    const response = await fetch(`https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key="""API KEY"""&steamids=${id}`)
     const data = await response.json() // Convierte la respuesta a un objeto JSON
     setProfileData(data.response.players[0]) // Establece los datos del perfil del usuario en el estado del componente
   }
